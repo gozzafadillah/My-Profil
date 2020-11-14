@@ -106,6 +106,15 @@ footer{
 
 @media screen and (min-width : 576px) {
     .container{
+        width: 650px;
+        grid-template-areas: "header header"
+                             "aside main"
+                             "none main"
+                             "footer footer";
+    }
+}
+@media screen and (min-width : 850px) {
+    .container{
         width: 1000px;
         grid-template-areas: "header header"
                              "aside main"
